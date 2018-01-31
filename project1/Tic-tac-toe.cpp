@@ -4,7 +4,7 @@ using namespace std;
 
 #define N 3
 vector<vector<int>>gameBoard(N, vector<int>(N, 0));
-vector<vector<vector<int>>>record(10, vector<vector<int>>(N, vector<int>(N, 0)));
+vector<vector<vector<int>>>record(N * N + 1, vector<vector<int>>(N, vector<int>(N, 0)));
 
 /* Check if the current player wins */
 int checkWin(int row, int col, int player) {
@@ -42,7 +42,7 @@ void printBoard(vector<vector<int>>& board) {
  */
 int solve(int player, int count) {
 	record[count] = gameBoard;
-	if (count == 9) return 0;
+	if (count == N * N) return 0;
 	count++;
 
 	// If win right away, then return that result!
@@ -83,13 +83,13 @@ int solve(int player, int count) {
 
 
 int main() {
-	// cout << "Choose a start position:" << endl;
+	// cout << "Choose a start position 1 ~ "<< N * N << ":" << endl;
 	// int pos = 0;
 	// cin >> pos;
-	// gameBoard[(pos - 1) / 3][(pos - 1) % 3] = 1;
+	// gameBoard[(pos - 1) / N][(pos - 1) % N] = 1;
 	// record[1] = gameBoard;
 	solve(1, 0);
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < N * N + 1; i++) {
 		cout << "Round " << i << ":" << endl;
 		printBoard(record[i]);
 	}
