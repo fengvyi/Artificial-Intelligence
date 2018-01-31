@@ -31,7 +31,7 @@ void printBoard(vector<vector<int>>& board) {
 }
 
 /* 
- * Let's begin!
+ * Let's play!
  *  1 represents for player 1 
  * -1 represents for player 2
  * Each player makes a move and leave the next round to the opponent
