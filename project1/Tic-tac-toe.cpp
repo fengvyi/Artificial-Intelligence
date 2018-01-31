@@ -41,11 +41,8 @@ void printBoard(vector<vector<int>>& board) {
  *        -1 - player 2 wins
  */
 int solve(int player, int count) {
-	//cout<<"Round="<<count<<" ,Player"<<(player == 1 ? 1 : 2)<<"'s Move, Game Board is"<<endl;
-	//printBoard(gameBoard);
 	record[count] = gameBoard;
 	if (count == 9) return 0;
-
 	count++;
 
 	// If win right away, then return that result!
