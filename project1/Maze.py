@@ -39,4 +39,3 @@ while True:
     if result:
         res = "YES"
     print "Path from (%s, %s) to (%s, %s): %s\n" %(a, b, x, y, res)
-
