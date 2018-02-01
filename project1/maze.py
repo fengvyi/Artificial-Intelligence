@@ -29,10 +29,14 @@ for x in read:
             row += 1
             col = 0
 
-a, b = 1, 75
-x, y = 37, 77
-
-result = DFS(a, b, x, y, maze)
-
-print "Path from (%s, %s) to (%s, %s): %s" %(a, b, x, y, result)
+while True:
+    a = input("Enter the start point - X: ")
+    b = input("Enter the start point - Y: ")
+    x = input("Enter the end point - X: ")
+    y = input("Enter the end point - X: ")
+    result = DFS(a, b, x, y, maze)
+    res = "NO"
+    if result:
+        res = "YES"
+    print "Path from (%s, %s) to (%s, %s): %s\n" %(a, b, x, y, res)
 
