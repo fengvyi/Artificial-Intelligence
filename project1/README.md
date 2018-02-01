@@ -21,4 +21,6 @@ The steps of the algorithm go as follows:
 2. If hit a wall(e.g. value 1 in the maze.txt) or re-visit a point, stop searching.
 3. If reached the target point, return true, else, call recursively.
 
+Run the script on Python 2.7
+
 
