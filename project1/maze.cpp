@@ -40,11 +40,21 @@ int main() {
 		}
 	}
 
-	int a = 4, b = 20, x = 79, y = 66;
+	int a = 0, b = 0, x = 0, y = 0;
 
-	bool result = DFS(a, b, x, y, maze);
-	
-	cout << "Path from ("<<a<<","<<b<<") to ("<<x<<","<<y<<"): " << (result ? "True" : "False") << endl;
+	while (true) {
+		cout << "Enter the start point - X:" << endl;
+		cin >> a;
+		cout << "Enter the start point - Y:" << endl;
+		cin >> b;
+		cout << "Enter the end point - X:" << endl;
+		cin >> x;
+		cout << "Enter the end point - Y:" << endl;
+		cin >> y;
+		bool result = DFS(a, b, x, y, maze);
+		cout << "Path from (" << a << "," << b << ") to (" << x << "," << y << "): " << (result ? "YES" : "NO") << endl;
+		cout << endl;
+	}
 
 	// for (auto i : maze) {
 	//	 for (auto j : i) {
