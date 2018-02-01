@@ -16,7 +16,6 @@ def DFS(a, b, x, y, maze):
     return DFS(a + 1, b, x, y, maze) or DFS(a, b + 1, x, y, maze) or DFS(a - 1, b, x, y, maze) or DFS(a, b - 1, x, y, maze)
 
 
-
 row, col = 0, 0
 
 maze = [[0 for x in range(81)] for y in range(81)]
