@@ -95,7 +95,7 @@ def solve(player, count):
 solve(1, 0)
 
 for i in range(N * N + 1):
-    print "Round %s :" %(i)
+    print "Round %s:" %(i)
     printBoard(record[i])
 
 print "Draw!"
