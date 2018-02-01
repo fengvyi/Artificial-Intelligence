@@ -10,6 +10,9 @@ The steps of the algorithm go as follows:
 
 Run the script on Python 2.7
 
+## Result
+[](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Tic-tac-toe-result.PNG)
+
 ## Maze
 I use DFS for traversing.
 
