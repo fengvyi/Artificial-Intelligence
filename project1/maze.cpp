@@ -6,15 +6,14 @@ using namespace std;
 
 // Find a path from (a, b) to (x, y) using Depth-first search
 bool DFS(int a, int b, int x, int y, vector<vector<int>>& maze) {
-	//cout << a << "," << b << endl;
+	// Target found, return
 	if (a == x && b == y) return true;
-
+	// Hit a wall or re-visited previous cell, return
 	if (maze[a][b] || a < 0 || a > 80 || b < 0 || b > 80) return false;
-	
+	// Set visited cell to 2
 	maze[a][b] = 2;
-
+	// Call recursively
 	return DFS(a + 1, b, x, y, maze) || DFS(a, b + 1, x, y, maze) || DFS(a - 1, b, x, y, maze) || DFS(a, b - 1, x, y, maze);
-
 }
 
 int main() {
@@ -44,8 +43,7 @@ int main() {
 
 	bool result = DFS(a, b, x, y, maze);
 	
-	cout << "Result of finding path from ("<<a<<","<<b<<") to ("<<x<<","<<y<<") is:" << endl;
-	cout << (result ? "True" : "False") << endl;
+	cout << "Path from ("<<a<<","<<b<<") to ("<<x<<","<<y<<"): " << (result ? "True" : "False") << endl;
 
 	// for (auto i : maze) {
 	//	 for (auto j : i) {
