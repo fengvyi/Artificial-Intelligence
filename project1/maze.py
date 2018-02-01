@@ -1,4 +1,4 @@
-
+# maze
 file1 = open("maze.txt", "r")
 read = file1.read()
 
