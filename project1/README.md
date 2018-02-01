@@ -10,7 +10,7 @@ The steps of the algorithm go as follows:
 
 Run the script on Python 2.7
 
-## Result
+### Result
 ![Tic-tac-toe-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Tic-tac-toe-result.PNG)
 
 ## Maze
@@ -26,4 +26,6 @@ The steps of the algorithm go as follows:
 
 Run the script on Python 2.7
 
+### Result
+![Maze-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Maze-result.PNG)
 
