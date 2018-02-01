@@ -30,6 +30,7 @@ int main() {
 		exit(1); // terminate with error
 	}
 
+	// Initialize the matrix
 	while (inFile >> i) {
 		maze[row][col] = i;
 		col++;
@@ -39,7 +40,7 @@ int main() {
 		}
 	}
 
-	int a = 1, b = 75, x = 37, y = 77;
+	int a = 4, b = 20, x = 79, y = 66;
 
 	bool result = DFS(a, b, x, y, maze);
 	
