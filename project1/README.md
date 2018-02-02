@@ -9,6 +9,7 @@ The steps of the algorithm go as follows:
 3. If there is no empty slot left to make a move, it's a draw.
 
 Run the script on Python 2.7
+***
 
 ### Result
 ![Tic-tac-toe-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Tic-tac-toe-result.PNG)
@@ -27,6 +28,7 @@ The steps of the algorithm go as follows:
 3. If reached the target point, return true, else, call recursively.
 
 Run the script on Python 2.7
+***
 
 ### Result
 ![Maze-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Maze-result.PNG)
