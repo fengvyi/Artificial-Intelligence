@@ -8,7 +8,9 @@ The steps of the algorithm go as follows:
 2. If wins, return the result, if not, recursively call as the opponent.
 3. If there is no empty slot left to make a move, it's a draw.
 
+***
 Run the script on Python 2.7
+***
 
 ### Result
 ![Tic-tac-toe-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Tic-tac-toe-result.PNG)
@@ -24,7 +26,9 @@ The steps of the algorithm go as follows:
 2. If hit a wall(e.g. value 1 in the maze.txt) or re-visit a point, stop searching.
 3. If reached the target point, return true, else, call recursively.
 
+***
 Run the script on Python 2.7
+***
 
 ### Result
 ![Maze-result](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project1/Maze-result.PNG)
