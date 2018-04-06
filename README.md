@@ -39,7 +39,6 @@ while not solved:
             #       position = r
             #       minConflicts = c
             
-
         # Update queen's new position
         # Update total conflicts
 ```
