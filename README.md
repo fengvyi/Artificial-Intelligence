@@ -1,5 +1,5 @@
 # Artificial-Intelligence
-***
+
 ## Project1 - Tic-Tac-Toe and Maze (DFS)
 1. Implement	a	simple Tic Tac Toe game with a 3\*3 grid. Indicate if the	game is a lose, win, or draw.
 
