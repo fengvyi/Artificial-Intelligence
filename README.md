@@ -8,7 +8,7 @@ Implement a	program that reads this maze and takes any two points (start and end
   
 ***
 
-## Project2 - Generalized Tic-Tac-Toe (Minimax & Alpha-Beta Pruning)
+## Project2 - ![Generalized Tic-Tac-Toe](https://github.com/fengvyi/Generalized-Tic-Tac-Toe) (Minimax & Alpha-Beta Pruning)
 A generalized Tic Tac Toe is an n\*n board game where each player chooses one of the parts X or O, and then plays in an alternate order to place his choice on the board. A player wins when he places m parts of	his	choice in	a	consecutive	order. The game may end in a draw when no one wins.	
 Given m and n, the agent can play against another agent in an n\*n board and tries to place m parts in a row to win.	  
 
