@@ -77,7 +77,7 @@ while not solved,
 
 Implement a stochastic grid world problem given in gridA.1.csv or gridA.2.csv using MDP with the below information. Indicate v* for all cells in the grid.<br>
 Discount factor = 0.9  and  Living reward = -0.01.<br>
-In the given file: final states 1000 or -800 ; “0” empty cells ; “-“ walls<br>
+In the given file: final states -> 1000 or -800 ; “0” -> empty cells ; “-“ -> walls<br>
 
 | Noise | Direction |
 | --- | -- |
