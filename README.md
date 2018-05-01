@@ -30,6 +30,7 @@ min-conflicts heuristic
 ### Algorithm 
 Iterative Search	Algorithm
 
+### Pseudo-code
 while not solved,
    * Variable selection: randomly select any conflicted queen variable
    * Operators: move queen in column
@@ -38,28 +39,15 @@ while not solved,
    * Goal test: no attacks 
    * Evaluation: c(n) = number of attacks
 
-**Pseudo-code**:
-```
-while not solved:
-        # Candidate set of queens with conflicts
-        # Randomly select a conflicted queen variable
-        # Set queen's current position to empty
-        # Mark queen's original position - originPos
-        # Try to find a min-conflict position to put the queen
-        # New position - position
-        # Min Conlicts - minConflicts
-        # for each row - r:
-            # Compute Conflicts c if put queen at r
-            # If c < minConflicts:
-            #   position = r
-            #   minConflicts = c
-            # else if c == minConflicts:
-            # Escape local maxima by allowing moves with equal conflicts
-            #   flip = random.randint(0, 1)
-            #   if flip or position == originPos:
-            #       position = r
-            #       minConflicts = c
-            
-        # Update queen's new position
-        # Update total conflicts
-```
+## Project4 - MDP(Markov Decision Processes) / HMM(Hidden Markov Models)
+### Project4 - a 
+Implement a stochastic grid world problem given in gridA.1.csv or gridA.2.csv using MDP with the below information. Indicate v* for all cells in the grid.<br>
+Discount factor = 0.9  and  Living reward = -0.01.<br>
+In the given file: final states 1000 or -800 ; “0” empty cells ; “-“ walls<br>
+
+| Noise | Direction |
+| --- | -- |
+| 60% | N |
+| 15% | E |
+| 10% | W |
+| 15% | S |
