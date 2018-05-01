@@ -1,4 +1,4 @@
-# Artificial-Intelligence ![](https://img.shields.io/travis/USER/REPO.svg)
+# Artificial-Intelligence ![build](https://img.shields.io/wercker/ci/wercker/docs.svg)
 
 ## Table of Contents
 
