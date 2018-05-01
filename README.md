@@ -39,8 +39,25 @@ while not solved,
    * Goal test: no attacks 
    * Evaluation: c(n) = number of attacks
 
-## Project4 - MDP(Markov Decision Processes) / HMM(Hidden Markov Models)
-### Project4 - a 
+## Project4 - MDP / HMM
+### Project4(a): Grid World - Markov Decision Processes(MDP)
+#### Grid World
+**A maze-like problem**
+* The agent lives in a grid
+* Walls block the agent’s path
+
+**Noisy movement: actions do not always go as planned**
+* 80% of the time, the action North takes the agent North 
+  (if there is no wall there)
+* 10% of the time, North takes the agent West; 10% East
+* If there is a wall in the direction the agent would have been taken, the agent stays put
+
+**The agent receives rewards each time step**
+* Small “living” reward each step (can be negative)
+* Big rewards come at the end (good or bad)
+
+**Goal: maximize sum of rewards**
+
 Implement a stochastic grid world problem given in gridA.1.csv or gridA.2.csv using MDP with the below information. Indicate v* for all cells in the grid.<br>
 Discount factor = 0.9  and  Living reward = -0.01.<br>
 In the given file: final states 1000 or -800 ; “0” empty cells ; “-“ walls<br>
@@ -51,3 +68,8 @@ In the given file: final states 1000 or -800 ; “0” empty cells ; “-“ wal
 | 15% | E |
 | 10% | W |
 | 15% | S |
+
+#### Result after 100 iterations:
+![](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project4/project4a/Screen%20Shot%202018-04-30%20at%208.55.48%20PM.png)
+
+### Project4(b) - Hidden Markov Models(HMM)
