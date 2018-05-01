@@ -1,4 +1,4 @@
-# Artificial-Intelligence
+# Artificial-Intelligence ![](https://img.shields.io/travis/USER/REPO.svg)
 
 ## Table of Contents
 
