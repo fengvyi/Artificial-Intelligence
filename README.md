@@ -1,5 +1,19 @@
 # Artificial-Intelligence
 
+## Table of Contents
+
+- [Project1 - Tic-Tac-Toe and Maze](#project1-tic-tac-toe-and-maze)
+- [Sending Feedback](#sending-feedback)
+- [Folder Structure](#folder-structure)
+- [Available Scripts](#available-scripts)
+  - [npm start](#npm-start)
+  - [npm test](#npm-test)
+  - [npm run build](#npm-run-build)
+  - [npm run eject](#npm-run-eject)
+- [Supported Browsers](#supported-browsers)
+
+<a name="project1-tic-tac-toe-and-maze"/>
+
 ## Project1 - Tic-Tac-Toe and Maze (DFS)
 1. Implement	a	simple Tic Tac Toe game with a 3\*3 grid. Indicate if the	game is a lose, win, or draw.
 
@@ -41,7 +55,7 @@ while not solved,
 
 ## Project4 - MDP / HMM
 ### Project4(a): Grid World - Markov Decision Processes(MDP)
-#### Grid World
+#### Grid World:
 **A maze-like problem**
 * The agent lives in a grid
 * Walls block the agent’s path
