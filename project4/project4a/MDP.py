@@ -92,7 +92,7 @@ def lookAhead(r, c):
     x, y = move(r, c, Direction.S)
     qSouth = float(V[x][y])
 
-
+    # Reward Function takes Noisy movement(actions do not always go as planned) and Discounting(prefer rewards now to rewards later) into account
     q[0] = (qNorth * 0.60 + qEast * 0.15 + qWest * 0.10 + qSouth * 0.15) * Discount
     q[1] = (qNorth * 0.10 + qEast * 0.60 + qWest * 0.15 + qSouth * 0.15) * Discount
     q[2] = (qNorth * 0.15 + qEast * 0.15 + qWest * 0.60 + qSouth * 0.10) * Discount
