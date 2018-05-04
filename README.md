@@ -92,7 +92,7 @@ In the given file: final states -> 1000 or -800 ; “0” -> empty cells ; “-�
 ![](https://github.com/fengvyi/Artificial-Intelligence/blob/master/project4/project4a/Screen%20Shot%202018-04-30%20at%208.55.48%20PM.png)
 
 ### Project4(b) - Hidden Markov Models(HMM)
-Consider a casino game, where the dealer is a three-sided die with labels 1, 2, and 3.  The dealer has three loaded dice D1 D2 D3 . For each die Di, the probability of rolling the number i is 0.6, and the probability of each of the other two outcomes is 0.2. At each turn, the dealer must decide whether to: (1) keep the same die; (2) switch to a different die randomly; (3) end the game. He chooses (1) with probability ½ and each of the others with probability ¼. At the beginning the dealer chooses one of the two dice with equal probability.
+Consider a casino game, where the dealer is a three-sided die with labels 1, 2, and 3.  The dealer has three loaded dice D1 D2 D3 . For each die Di, the probability of rolling the number i is 0.6, and the probability of each of the other two outcomes is 0.2. At each turn, the dealer must decide whether to: (1) keep the same die; (2) switch to a different die randomly; (3) end the game. He chooses (1) with probability ½ and each of the others with probability ¼. At the beginning the dealer chooses one of the three dice with equal probability.
 
 1.	Give an HMM for this situation. Specify the alphabet, the states, the transition probabilities and the emission probabilities. 
 2.	Suppose that you observe the following sequence of die rolls: x.  (x is given to you in the input file.) 
