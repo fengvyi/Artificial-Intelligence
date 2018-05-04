@@ -38,13 +38,21 @@
 
 '''
 
+# Transition Probabilities
 TP = [[0.0 for x in range(4)] for y in range(4)]
+# Emission Probabilities
 EP = [[0.0 for x in range(4)] for y in range(4)]
-state = [1.0/3 for x in range(4)]
+# state = [1.0/3 for x in range(4)]
+
+# Input Sequence
 seq = []
+
+# Output Result
 res = []
+# Most Likely Probabilities of Sequence
 mostLikely = 0.0
 
+# Initialize TP and EP arrays
 def init():
     TP[1][1] = 0.5
     TP[1][2] = 0.25 * 0.5
@@ -73,7 +81,7 @@ def init():
     EP[3][2] = 0.2
     EP[3][3] = 0.6
 
-
+# Read Input Sequence
 def HMM(s):
     global seq
     global res
@@ -112,7 +120,7 @@ def dfs(dieUsed, p, die, pos):
     p *= EP[die][seq[pos]]
     pos += 1
     if pos == len(seq):
-        p *= 0.25
+        # p *= 0.25
         global mostLikely
         if p > mostLikely:
             mostLikely = p
